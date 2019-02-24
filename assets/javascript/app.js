@@ -34,7 +34,7 @@ var game = {
         {q: "In the show The Simpsons, what is Grandpa Simpson's first name?", a1: "Waylon", a2: "Herbert", a3: "Nathaniel", a4: "Abraham", c: "Abraham", im: "simpson.gif"},
         {q: "In Iron Man 3, Tony Stark introduces a suit that can fly in separate pieces. What is the name of this suit?", a1: "Mark 42", a2: "Mark 38", a3: "Mark 25", a4: "Mark 50", c: "Mark 42", im: "mark42.gif"},
         {q: "Michael, from The Office, wrote a screenplay called Threat Level Midnight. What is name of the secret agent Michael created for himself?", a1: "Michael Scarn", a2: "Agent Smith", a3: "Detective Scott", a4: "Mike Ike", c: "Michael Scarn", im: "office.gif"},
-        {q: "Phil's-osophy is a collection of wise words that Phil Dunphy from Modern Family wrote. Finish this phrase from the book. \"If you love something, set it free. __________\"", a1: "Way, way free.", a2: "Unless it's a tiger.", a3: "Then, chase after it right away!", a4: "You fool.", c: "Unless it's a tiger.", im: "modern.gif"},
+        {q: "Phil's-osophy is a collection of wise words that Phil Dunphy from Modern Family wrote. Finish this phrase from the book. \"If you love something, set it free. __________\"", a1: "Way, way free.", a2: "Unless it is a tiger.", a3: "Then, chase after it right away!", a4: "You fool.", c: "Unless it is a tiger.", im: "modern.gif"},
         {q: "In the movie Shawshank Redemption, Andy Dufresne escapes through a tunnel that he dug over a long period of time. Where was the tunnel hidden?", a1: "Under his bed", a2: "In the yard, behind the bench", a3: "Behind his pillow", a4: "Behind a poster", c: "Behind a poster", im: "shawshank.gif"},
         {q: "In the children's show Arthur, what is D.W.'s full name?", a1: "Dora Winifred", a2: "Deena Wilt", a3: "Donna Witney", a4: "Denise Wendy", c: "Dora Winifred", im: "dw.gif"},
         {q: "In the show The Simpsons, what is the name of the street the Simpsons live on?", a1: "Springfield", a2: "Sansom", a3: "Evergreen", a4: "Brick", c: "Evergreen", im: "simpsonhouse.gif"},
@@ -86,7 +86,7 @@ var game = {
         console.log(dataName);
 
         //if the button clicked is same as correct answer, do this
-        if (dataName == game.questions[questionIndex].c) {
+        if (dataName === game.questions[questionIndex].c) {
 
             //increase Correct answers
             guessedCorrect++;        
