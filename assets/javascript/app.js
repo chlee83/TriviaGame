@@ -62,7 +62,7 @@ var game = {
 
             //stop the timer
             clearInterval(timerSet);
-            $(".questions").html("<div>Here are the results of the trivia!</div>");
+            $(".question").html("<div>Here are the results of the trivia!</div>");
             $(".answers").html("<div>Correct Answers: " + guessedCorrect);
             $(".answers").append("<div>Incorrect Answers: " + guessedIncorrect);
             $(".answers").append("<div>Unanswered: " + missedAnswers);
