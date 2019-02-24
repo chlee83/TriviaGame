@@ -38,8 +38,8 @@ var game = {
         {q: "In the movie Shawshank Redemption, Andy Dufresne escapes through a tunnel that he dug over a long period of time. Where was the tunnel hidden?", a1: "Under his bed", a2: "In the yard, behind the bench", a3: "Behind his pillow", a4: "Behind a poster", c: "Behind a poster", im: "shawshank.gif"},
         {q: "In the children's show Arthur, what is D.W.'s full name?", a1: "Dora Winifred", a2: "Deena Wilt", a3: "Donna Witney", a4: "Denise Wendy", c: "Dora Winifred", im: "dw.gif"},
         {q: "In the show The Simpsons, what is the name of the street the Simpsons live on?", a1: "Springfield", a2: "Sansom", a3: "Evergreen", a4: "Brick", c: "Evergreen", im: "simpsonhouse.gif"},
-        {q: "In Avengers: Infinity War, which was the last stone that Thanos collected?", a1: "Reality Stone", a2: "Soul Stone", a3: "Time Stone", a4: "Mind Stone", c: "Abraham", im: "infinity.gif"},
-
+        {q: "In Avengers: Infinity War, which was the last stone that Thanos collected?", a1: "Reality Stone", a2: "Soul Stone", a3: "Time Stone", a4: "Mind Stone", c: "Mind Stone", im: "infinity.gif"},
+        {q: "Turkish, Brick Top, Boris The Blade, and Franky Four Fingers are all characters from what movie?", a1: "Lock, Stock, and Two Smoking Barrels", a2: "Snatch", a3: "Ocean's Eleven", a4: "Rock N Rolla", c: "Snatch", im: "snatch.gif"},
 
     ],
 
