@@ -27,7 +27,7 @@ var game = {
     questions: [
 
         {q: "What was the name of the shrimping business Forrest Gump started?", a1: "Jumbo Shrimp", a2: "Gump Shrimp", a3: "Shrimping Forrest", a4: "Bubba Gump Shrimp", c: "Bubba Gump Shrimp", im: "forrest.jpg"},
-        {q: "In the movie Despicabe Me, what was the name of the youngest of the three girls that Gru adopted? ", a1: "Agnes", a2: "Margo", a3: "Edith", a4: "Elsa", c: "Agnes", im: "agnes.gif"},
+        {q: "In the movie Despicable Me, what was the name of the youngest of the three girls that Gru adopted? ", a1: "Agnes", a2: "Margo", a3: "Edith", a4: "Elsa", c: "Agnes", im: "agnes.gif"},
         {q: "What is the real name of Carlton Banks from Fresh Prince of Bel Air?", a1: "Carlton Smith", a2: "Alfonso Ribeiro", a3: "Freddy Willis", a4: "Jeff Albert", c: "Alfonso Ribeiro", im: "carlton.gif"},
         {q: "In the movie Lion King, what did Scar say to Mufasa right before he killed him?", a1: "Long live the king", a2: "I am the new king", a3: "This kingdom is mine", a4: "He didn't say anything", c: "Long live the king", im: "scar.gif"},
         {q: "Every week, the TV Guide comes to Chandler and Joey's apartment on the show Friends. What name appears on the address label?", a1: "Chandler and Joey", a2: "Chandelier Bing", a3: "Chanandeler Bong", a4: "Miss Bing", c: "Chanandeler Bong", im: "chandler.gif"},
