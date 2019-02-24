@@ -1,0 +1,87 @@
+html, body {
+    background: url("../images/movies.jpg");
+    background-position: center;
+    font-family: 'Krub', sans-serif;
+    font-size: 25px;
+    color: #555;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.97);;
+    max-width: 960px;
+    margin: 30px auto;
+    border: 2px solid rgb(154, 180, 235);
+    min-height: 600px;
+}
+
+.titleRow {
+    margin-top: 10px;
+}
+
+.questionRow, .timerRow {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.answersRow {
+    margin-top: 10px;
+    padding: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #0c6396;
+    font-size: 60px;
+    text-shadow: 3px 3px #bbb;
+}
+
+.startButton {
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #ffeea2;
+    color: #0d3d58;
+    border: solid 2px #0d3d58;
+    cursor: pointer;
+}
+.startButton:hover {
+    border: solid 2px #f03030;
+}
+
+.answerButton {
+    width: 350px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+.answerButton:hover {
+    border: solid 2px rgb(154, 180, 235);
+    background-color: #e0fae6;
+}
+
+.restartButton {
+    width: 350px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px rgb(235, 234, 154);
+    background-color: #5180be;
+    color: #fff;
+}
+.restartButton:hover {
+    border: solid 2px rgb(154, 180, 235);
+    background-color: #ffffff;
+    color: #777;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
